@@ -1,0 +1,3 @@
+netsquid==0.7.5
+pydynaa==0.2.4
+cysignals==1.11.4
