@@ -24,7 +24,11 @@ pip install -r requirements-base.txt
 
 # NetSquidのインストール（NetSquidフォーラムのアカウントが必要）
 # https://forum.netsquid.org/ でアカウント作成後、以下を実行
+# 注意: requirements-netsquid.txtで指定されたバージョン（0.7.5）をインストールします
 pip install -r requirements-netsquid.txt --extra-index-url=https://pypi.netsquid.org
+
+# または、バージョンを明示的に指定してインストール:
+# pip install netsquid==0.7.5 pydynaa==0.2.4 cysignals==1.11.4 --extra-index-url=https://pypi.netsquid.org
 ```
 
 ### 注意事項
